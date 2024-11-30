@@ -1,32 +1,80 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Compiled object files
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+# Compiled static libraries
+*.lib
+*.a
 
-# Compiled Dynamic libraries
+# Compiled dynamic libraries
+*.dll
 *.so
 *.dylib
-*.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Executable files
 *.exe
 *.out
 *.app
+
+# Build directories
+/build/
+bin/
+output/
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE-specific files
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.opendb
+*.VC.db
+
+# JetBrains IDEs (CLion, etc.)
+.idea/
+*.iml
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# Code::Blocks
+*.layout
+*.cbp
+
+# Xcode
+*.pbxproj
+*.xcworkspace
+*.xcuserstate
+*.xcscheme
+
+# QtCreator
+*.pro.user
+*.qmake.stash
+*.qmake.cache
+
+# Editor-specific files
+*~
+*.swp
+*.swo
+.DS_Store
+.vscode/
+*.code-workspace
+
+# Debug files
+*.log
+*.dSYM/
+*.stackdump
+*.core
+
+# Other system files
+Thumbs.db
+desktop.ini
+cmake-build-debug/
